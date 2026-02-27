@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Премиум студия маникюра и педикюра. Безопасная аппаратная обработка, гипоаллергенные материалы и гарантия качества.">
+
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Премиум ногтевой сервис | Маникюр и педикюр">
+    <meta property="og:description"
+        content="Безопасная аппаратная обработка, гипоаллергенные материалы и гарантия качества в премиум-студии.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://example.com/assets/images/hero.png">
+
+    <!-- Schema.org Markup for LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Nail Aesthetic",
+      "image": "https://example.com/assets/images/hero.png",
+      "telephone": "+79990000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Пресненская наб., 12",
+        "addressLocality": "Москва",
+        "addressRegion": "Москва",
+        "addressCountry": "RU"
+      },
+      "priceRange": "$$"
+    }
+    </script>
+    <title>Премиум ногтевой сервис | Маникюр и педикюр</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Flatpickr for date selection (Premium Datepicker) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-text">Nail<span>Aesthetic</span></span>
+            </div>
+            <nav class="nav">
+                <a href="#about" class="nav-link">О мастере</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#portfolio" class="nav-link">Портфолио</a>
+                <a href="#reviews" class="nav-link">Отзывы</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#booking" class="btn btn-outline">Записаться онлайн</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-content">
+            <a href="#about" class="mobile-nav-link">О мастере</a>
+            <a href="#services" class="mobile-nav-link">Услуги</a>
+            <a href="#portfolio" class="mobile-nav-link">Портфолио</a>
+            <a href="#reviews" class="mobile-nav-link">Отзывы</a>
+            <a href="#contacts" class="mobile-nav-link">Контакты</a>
+            <a href="#booking" class="btn btn-primary mobile-booking-btn">Записаться онлайн</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-label">Премиум качество</span>
+                <h1 class="hero-title">Идеальный маникюр и педикюр в каждом движении</h1>
+                <p class="hero-subtitle">Безопасная аппаратная обработка и гипоаллергенные материалы премиум-класса для
+                    здоровья и красоты ваших ногтей.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary btn-large">Записаться онлайн</a>
+                    <a href="https://wa.me/79990000000" target="_blank" class="btn btn-outline btn-large">Написать в
+                        WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/images/hero.png" alt="Идеальный маникюр">
+                    <div class="hero-badge">
+                        <div class="badge-icon">✨</div>
+                        <div class="badge-text">
+                            <strong>100%</strong>
+                            <span>Стерильно</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <div class="adv-grid">
+                <div class="adv-card fade-up">
+                    <div class="adv-icon">⚡</div>
+                    <h3>Аппаратная обработка</h3>
+                    <p>Безопасная и точная обработка кутикулы без порезов и дискомфорта.</p>
+                </div>
+                <div class="adv-card fade-up delay-1">
+                    <div class="adv-icon">🌿</div>
+                    <h3>Гипоаллергенно</h3>
+                    <p>Только проверенные материалы, безопасные для чувствительной кожи.</p>
+                </div>
+                <div class="adv-card fade-up delay-2">
+                    <div class="adv-icon">🛡️</div>
+                    <h3>Стерилизация</h3>
+                    <p>Медицинский сухожар, индивидуальные крафт-пакеты открываются при вас.</p>
+                </div>
+                <div class="adv-card fade-up delay-3">
+                    <div class="adv-icon">💎</div>
+                    <h3>Гарантия</h3>
+                    <p>Предоставляем гарантию на покрытие до 7 дней.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="assets/images/master.png" alt="Мастер маникюра">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">О мастере</h2>
+                <h3 class="about-subtitle">Приветствую! Меня зовут Анна, я ваш мастер ногтевого сервиса.</h3>
+                <p class="about-text">В своей работе я ставлю на первое место ваше здоровье и безопасность. Именно
+                    поэтому я использую только проверенную аппаратную технику, которая деликатно ухаживает за кожей рук
+                    и ног, не травмируя ее.</p>
+                <ul class="about-list">
+                    <li>✓ Опыт работы более 5 лет в премиум сегменте</li>
+                    <li>✓ Регулярное повышение квалификации</li>
+                    <li>✓ Тщательная 3-этапная стерилизация всех инструментов</li>
+                </ul>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">5000+</span>
+                        <span class="stat-label">Довольных<br>клиентов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-label">Сертификатов<br>обучения</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & PricesSection -->
+    <section id="services" class="services section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Услуги и цены</h2>
+                <p class="section-desc">Выберите процедуру, которая порадует именно вас</p>
+            </div>
+
+            <div class="services-wrapper">
+                <!-- Manicure -->
+                <div class="service-category">
+                    <h3 class="category-title">Маникюр</h3>
+                    <div class="price-list">
+                        <div class="price-item highlight">
+                            <div class="price-info">
+                                <h4 class="service-name">Комплекс "Всё включено" (Маникюр + Покрытие)</h4>
+                                <p class="service-desc">Снятие, аппаратный/комби маникюр, выравнивание, однотонное
+                                    покрытие гель-лаком.</p>
+                            </div>
+                            <div class="price-value">2 500 ₽</div>
+                        </div>
+                        <div class="price-item">
+                            <div class="price-info">
+                                <h4 class="service-name">Аппаратный маникюр</h4>
+                                <p class="service-desc">Обработка без покрытия для идеальной чистоты.</p>
+                            </div>
+                            <div class="price-value">1 200 ₽</div>
+                        </div>
+                        <div class="price-item">
+                            <div class="price-info">
+                                <h4 class="service-name">Укрепление ногтей (акрил / пудра)</h4>
+                                <p class="service-desc">Делает ногти крепкими и защищает от ломкости.</p>
+                            </div>
+                            <div class="price-value">от 500 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pedicure -->
+                <div class="service-category">
+                    <h3 class="category-title">Педикюр</h3>
+                    <div class="price-list">
+                        <div class="price-item highlight">
+                            <div class="price-info">
+                                <h4 class="service-name">Комплекс Педикюр с покрытием</h4>
+                                <p class="service-desc">Обработка пальчиков и стоп, покрытие гель-лаком.</p>
+                            </div>
+                            <div class="price-value">3 200 ₽</div>
+                        </div>
+                        <div class="price-item">
+                            <div class="price-info">
+                                <h4 class="service-name">Педикюр (только пальчики) + Покрытие</h4>
+                                <p class="service-desc">Экспресс вариант для обновления цвета.</p>
+                            </div>
+                            <div class="price-value">2 500 ₽</div>
+                        </div>
+                        <div class="price-item">
+                            <div class="price-info">
+                                <h4 class="service-name">СМАРТ-педикюр (без покрытия)</h4>
+                                <p class="service-desc">Глубокая обработка стоп дисками, избавление от трещин.</p>
+                            </div>
+                            <div class="price-value">2 200 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="service-category">
+                    <h3 class="category-title">Дизайн</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <div class="price-info">
+                                <h4 class="service-name">Френч / Лунный дизайн</h4>
+                                <p class="service-desc">Классика на все времена.</p>
+                            </div>
+                            <div class="price-value">+ 400 ₽</div>
+                        </div>
+                        <div class="price-item">
+                            <div class="price-info">
+                                <h4 class="service-name">Сложный дизайн / Роспись (1 ноготь)</h4>
+                                <p class="service-desc">Уникальные рисунки, стемпинг, стразы.</p>
+                            </div>
+                            <div class="price-value">от 100 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Наши работы</h2>
+                <p class="section-desc">Вдохновитесь примерами наших лучших работ</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item gallery-item" data-src="assets/images/portfolio_1.png">
+                    <img src="assets/images/portfolio_1.png" alt="Маникюр пример 1">
+                    <div class="portfolio-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="portfolio-item gallery-item" data-src="assets/images/portfolio_2.png">
+                    <img src="assets/images/portfolio_2.png" alt="Педикюр пример">
+                    <div class="portfolio-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="portfolio-item gallery-item" data-src="assets/images/hero.png">
+                    <img src="assets/images/hero.png" alt="Маникюр пример 2">
+                    <div class="portfolio-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-btn-wrapper">
+                <a href="#booking" class="btn btn-outline">Хочу так же</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="safety section-padding bg-dark">
+        <div class="container safety-container">
+            <div class="safety-content">
+                <h2 class="section-title text-light">Безопасность — ваш приоритет</h2>
+                <p class="safety-text">Мы строго соблюдаем все нормы СанПиН. Инструменты проходят 3-х ступенчатую
+                    очистку и стерилизуются в медицинском автоклаве.</p>
+                <div class="safety-features">
+                    <div class="s-feature">
+                        <span class="sf-icon">Дезинфекция</span>
+                        <p>Замачивание в растворе</p>
+                    </div>
+                    <div class="s-feature">
+                        <span class="sf-icon">ПСО</span>
+                        <p>Очистка в УЗ-мойке</p>
+                    </div>
+                    <div class="s-feature">
+                        <span class="sf-icon">Стерилизация</span>
+                        <p>Сухожар / Автоклав при 180°C</p>
+                    </div>
+                </div>
+                <div class="certifications gallery-item" data-src="assets/images/sterilization.png">
+                    <span class="cert-link">Посмотреть сертификаты и
+                        оборудование</span>
+                </div>
+            </div>
+            <div class="safety-image">
+                <img src="assets/images/sterilization.png" alt="Стерилизация инструментов">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <p class="section-desc">Что о нас говорят те, кто уже побывал в студии</p>
+            </div>
+
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Замечательный мастер! Делала аппаратный маникюр с выравниванием. Ногти
+                        держатся уже 3 недели, ни одного скола. Очень уютная атмосфера в студии."</p>
+                    <div class="review-author">
+                        <div class="author-avatar">Е</div>
+                        <div class="author-info">
+                            <h5 class="author-name">Екатерина С.</h5>
+                            <span class="author-date">10 февраля 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Наконец-то нашла место, где можно не переживать за безопасность. Крафт пакет
+                        открыли прямо при мне. Педикюр сделали очень аккуратно, пяточки как у младенца!"</p>
+                    <div class="review-author">
+                        <div class="author-avatar">А</div>
+                        <div class="author-info">
+                            <h5 class="author-name">Алина В.</h5>
+                            <span class="author-date">24 января 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">"Огромный выбор цветов и дизайнов. Анна помогла подобрать идеальный нюд под
+                        мой тон кожи. Вернусь обязательно снова!"</p>
+                    <div class="review-author">
+                        <div class="author-avatar">М</div>
+                        <div class="author-info">
+                            <h5 class="author-name">Мария Д.</h5>
+                            <span class="author-date">15 января 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="booking section-padding">
+        <div class="container booking-container">
+            <div class="booking-form-wrapper">
+                <h2 class="section-title">Запись на процедуру</h2>
+                <p class="booking-subtitle">Оставьте заявку онлайн, и мы свяжемся с вами для подтверждения.</p>
+
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (999) 000-00-00" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Услуга</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Выберите услугу</option>
+                            <option value="manicure_full">Комплекс "Всё включено" (Маникюр) - 2500 ₽</option>
+                            <option value="manicure_app">Аппаратный маникюр - 1200 ₽</option>
+                            <option value="pedicure_full">Комплекс Педикюр - 3200 ₽</option>
+                            <option value="pedicure_smart">СМАРТ-педикюр - 2200 ₽</option>
+                            <option value="other">Другое / Консультация</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Желаемая дата</label>
+                        <input type="text" id="date" name="date" placeholder="Выберите дату" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Подтвердить запись</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+                </form>
+
+                <!-- Success Message -->
+                <div id="bookingSuccess" class="booking-success hidden">
+                    <div class="success-icon">✓</div>
+                    <h3>Спасибо за заявку!</h3>
+                    <p>Мы получили вашу заявку и свяжемся с вами в течение 15 минут для подтверждения времени.</p>
+                    <button id="resetBookingBtn" class="btn btn-outline">Новая запись</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Footer -->
+    <footer id="contacts" class="footer">
+        <div class="container footer-container">
+            <!-- Location Details -->
+            <div class="footer-info">
+                <h3 class="footer-logo">Nail<span>Aesthetic</span></h3>
+                <p class="footer-desc">Студия премиального безопасного ногтевого сервиса. Мы заботимся о вашей красоте и
+                    здоровье.</p>
+
+                <div class="contact-methods">
+                    <div class="c-method">
+                        <span class="cm-icon">📍</span>
+                        <div class="cm-text">
+                            <strong>Адрес:</strong>
+                            <span>Москва, Пресненская наб., 12 (Москва-Сити)</span>
+                        </div>
+                    </div>
+                    <div class="c-method">
+                        <span class="cm-icon">⌚</span>
+                        <div class="cm-text">
+                            <strong>Режим работы:</strong>
+                            <span>Ежедневно: 10:00 - 22:00</span>
+                        </div>
+                    </div>
+                    <div class="c-method">
+                        <span class="cm-icon">📞</span>
+                        <div class="cm-text">
+                            <strong>Телефон:</strong>
+                            <a href="tel:+79990000000">+7 (999) 000-00-00</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Telegram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.9298 3.99981L19.4998 15.3498C19.3498 16.0398 18.9198 16.2098 18.3398 15.8998L15.1298 13.5298L13.5898 15.0198C13.4198 15.1898 13.2698 15.3498 12.9198 15.3498L13.1498 12.0898L19.0898 6.71981C19.3498 6.48981 19.0398 6.35981 18.6898 6.59981L11.3398 11.2198L8.18978 10.2398C7.50978 10.0298 7.49978 9.54981 8.32978 9.22981L20.6598 4.47981C21.2298 4.26981 21.7298 4.60981 21.9298 3.99981Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" title="WhatsApp">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.05 4.90998C17.18 3.03998 14.67 2.00001 12.02 2.00001C6.54 2.00001 2.08 6.46001 2.08 11.94C2.08 13.68 2.54 15.39 3.41 16.9L2 22L7.22 20.63C8.68 21.42 10.33 21.85 12 21.85C17.48 21.85 21.94 17.39 21.94 11.91C21.94 9.25 20.9 6.77998 19.05 4.90998ZM12.02 20.18C10.53 20.18 9.09 19.78 7.84 19.04L7.54 18.86L4.44 19.67L5.27 16.65L5.07 16.33C4.26 15.05 3.83 13.52 3.83 11.94C3.83 7.42999 7.49 3.76001 12.03 3.76001C14.22 3.76001 16.29 4.61998 17.84 6.16998C19.38 7.71998 20.24 9.77999 20.24 11.96C20.23 16.48 16.55 20.18 12.02 20.18ZM16.51 14.07C16.26 13.94 15.03 13.34 14.81 13.26C14.59 13.18 14.42 13.14 14.26 13.38C14.09 13.63 13.6 14.2 13.43 14.38C13.26 14.56 13.08 14.59 12.83 14.46C12.58 14.34 11.77 14.07 10.82 13.22C10.08 12.56 9.58 11.72 9.4 11.47C9.23 11.23 9.38 11.12 9.51 10.99C9.62 10.87 9.76 10.69 9.89 10.55C10.02 10.4 10.06 10.31 10.15 10.14C10.23 9.97 10.19 9.82 10.13 9.69C10.07 9.57 9.57 8.35 9.37 7.85C9.17 7.35 8.97 7.44 8.81 7.43C8.67 7.43 8.5 7.43 8.34 7.43C8.17 7.43 7.9 7.49 7.68 7.73C7.45 7.98 6.81 8.57 6.81 9.78C6.81 10.98 7.7 12.15 7.83 12.33C7.96 12.5 9.55 14.97 12 16.03C12.58 16.28 13.03 16.43 13.38 16.54C13.96 16.73 14.49 16.7 14.9 16.64C15.35 16.57 16.3 16.05 16.5 15.5C16.7 14.94 16.7 14.46 16.64 14.35C16.57 14.24 16.4 14.19 16.15 14.07V14.07H16.51Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="footer-map">
+                <!-- Using an iframe embed for the map -->
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=37.537552%2C55.748383&z=16&text=Москва-Сити"
+                    width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container fb-container">
+                <p>&copy; 2026 Nail Aesthetic. Все права защищены.</p>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal Gallery -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
