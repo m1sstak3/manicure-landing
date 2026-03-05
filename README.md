@@ -17,7 +17,7 @@
 > 💡 **Заметка:** Прогони свою ИИ-картинку через Shots.so (выбери рамку браузера macOS/Safari), загрузи в GitHub Issues и вставь ссылку ниже!
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/352f9534-bea7-4793-b0f0-3bdd30dc732f" width="900" />
+  <img src="https://github.com/user-attachments/assets/1fe84123-4eba-473c-a23a-8877931ff321" width="900" />
 </div>
 
 ---
